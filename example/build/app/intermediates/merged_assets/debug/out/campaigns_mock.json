@@ -1,0 +1,57 @@
+{
+  "cache_ttl": 10080,
+  "cache_ttl_rewarded": 10080,
+  "cache_ttl_banner": 10080,
+  "cache_ttl_native": 10080,
+  "cache_ttl_icon": 10080,
+  "campaigns": [
+    {
+      "redirectionProductId": "xyz",
+      "redirectionEnabled": 0,
+      "campaignID": "0",
+      "attribution": 0,
+      "priority": "5",
+      "appToPromote": {
+        "appToPromoteID": "0",
+        "usesDefaultFrameImage": "0",
+        "usesDefaultCloseImage": "0",
+        "marketURL": "https:\/\/apps.apple.com\/app\/cooking-day-restaurant-game\/id1427191409?uo=5&at=10l9yE",
+        "packageID": "com.NewAge.cooking.day"
+      },
+      "showTemplate": 1,
+      "s2s_tracking_url": "https:\/\/apps.apple.com\/app\/cooking-day-restaurant-game\/id1427191409?uo=5&at=10l9yE",
+      "activeCreativeID": "0",
+      "scenes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "27"
+      ],
+      "campaignAdType": "Interstitial"
+    }
+   ],
+  "refreshAdRate": 40,
+  "mode": "Production",
+  "aspectRatio": "9_16",
+  "cdnPath": "https:\/\/df8ymybeo92md.cloudfront.net\/images\/",
+  "sentry_log": 0,
+  "local_logging": 0,
+  "sentry_dsn": "https:\/\/e6dcd89483ae4d13b0f42ed3810d8d62:078421c4ad3d43f19885b30828ce7ee6@sentry.io\/187776",
+  "sentry_initialization": 1,
+  "sentry_debugging": 0,
+  "bannerSizes": [
+    "1"
+  ],
+  "aspectRatioVideo": "16_9",
+  "app_id": "17790",
+  "showPreRewardedDialogue": 0,
+  "showPostRewardedDialogue": 0,
+  "rewardCurrency": "coins",
+  "rewardValue": 0,
+  "isSkipable": 1,
+  "privacyPolicyURL": "https:\/\/www.consoliads.com\/privacy-policy\/",
+  "sessionToken": "2RCjFkGamMghDeFjSbGvt1i3+0HPNGkyns1Szh9l\/+8vw44XnZNENL9A9ucsJJFkvrO1LgD8SxBImDHMgRh+MiZ05SrgNU36shdNkcS6fQp47bAGWULeezp2d1IoJOhTMiJtTGS1cKjRp4Zru14p0N3TfN1VJYmU50vXor7p+ec="
+}

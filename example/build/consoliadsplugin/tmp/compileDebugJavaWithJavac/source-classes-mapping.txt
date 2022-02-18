@@ -1,0 +1,5 @@
+com/consoliads/consoliadsplugin/BuildConfig.java
+ com.consoliads.consoliadsplugin.BuildConfig
+com/consoliads/consoliadsplugin/ConsoliadspluginPlugin.java
+ com.consoliads.consoliadsplugin.ConsoliadspluginPlugin
+ com.consoliads.consoliadsplugin.ConsoliadspluginPlugin$1

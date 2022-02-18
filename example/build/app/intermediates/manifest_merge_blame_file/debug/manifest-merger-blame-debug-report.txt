@@ -1,0 +1,133 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zohaibbrand.testGame"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:10:5-79
+15-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:11:5-76
+16-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:11:22-73
+17
+18    <application
+18-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:4:4-34:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] /Users/arnav/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:7:9-43
+22        android:label="consoliadsplugin_example"
+22-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:5:9-49
+23        android:networkSecurityConfig="@xml/network_security_config"
+23-->[com.consoliads:consoliadsmediation:v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/051be165e8a7aa4dafa6a166a84fa2c3/jetified-consoliadsmediation-v13.2.1/AndroidManifest.xml:16:9-69
+24        android:usesCleartextTraffic="true" >
+24-->[com.consoliads:consoliadsmediation:v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/051be165e8a7aa4dafa6a166a84fa2c3/jetified-consoliadsmediation-v13.2.1/AndroidManifest.xml:17:9-44
+25        <activity
+25-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:8:9-28:20
+26            android:name="com.consoliads.consoliadsplugin_example.MainActivity"
+26-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:9:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:13:13-163
+28            android:exported="true"
+28-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:10:13-36
+29            android:hardwareAccelerated="true"
+29-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:14:13-47
+30            android:launchMode="singleTop"
+30-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:11:13-43
+31            android:theme="@style/LaunchTheme"
+31-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:12:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:15:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:20:13-23:17
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:21:15-70
+42                android:resource="@style/NormalTheme" />
+42-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:22:15-52
+43
+44            <intent-filter>
+44-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:24:13-27:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:25:17-68
+45-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:25:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:26:17-76
+47-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:26:27-74
+48            </intent-filter>
+49        </activity>
+50        <!--
+51             Don't delete the meta-data below.
+52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+53        -->
+54        <meta-data
+54-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:31:9-33:33
+55            android:name="flutterEmbedding"
+55-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:32:13-44
+56            android:value="2" />
+56-->/Users/arnav/Downloads/consoliadsplugin-0.0.1/example/android/app/src/main/AndroidManifest.xml:33:13-30
+57        <meta-data
+57-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:14:9-16:69
+58            android:name="com.google.android.gms.version"
+58-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:15:13-58
+59            android:value="@integer/google_play_services_version" />
+59-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:16:13-66
+60
+61        <activity
+61-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:18:9-21:20
+62            android:name="com.consoliads.sdk.videoads.VideoActivity"
+62-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:19:13-69
+63            android:configChanges="keyboardHidden|orientation|screenSize" >
+63-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:20:13-74
+64        </activity>
+65        <activity
+65-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:22:9-25:20
+66            android:name="com.consoliads.sdk.interstitialads.InterstitialActivity"
+66-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:23:13-83
+67            android:configChanges="keyboardHidden|orientation|screenSize" >
+67-->[com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/dfcee592a7254a24359f37d3947fa74a/jetified-consoliadsplugin-v12.1.0-mediation-v13.2.1/AndroidManifest.xml:24:13-74
+68        </activity> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+69        <activity
+69-->[com.google.android.gms:play-services-ads-lite:9.6.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/8f8061f84543e38ae370bf68656197f2/jetified-play-services-ads-lite-9.6.1/AndroidManifest.xml:25:9-232
+70            android:name="com.google.android.gms.ads.AdActivity"
+70-->[com.google.android.gms:play-services-ads-lite:9.6.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/8f8061f84543e38ae370bf68656197f2/jetified-play-services-ads-lite-9.6.1/AndroidManifest.xml:25:19-71
+71            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+71-->[com.google.android.gms:play-services-ads-lite:9.6.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/8f8061f84543e38ae370bf68656197f2/jetified-play-services-ads-lite-9.6.1/AndroidManifest.xml:25:72-181
+72            android:theme="@android:style/Theme.Translucent" />
+72-->[com.google.android.gms:play-services-ads-lite:9.6.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/8f8061f84543e38ae370bf68656197f2/jetified-play-services-ads-lite-9.6.1/AndroidManifest.xml:25:182-230
+73        <activity
+73-->[com.google.android.gms:play-services-ads-lite:9.6.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/8f8061f84543e38ae370bf68656197f2/jetified-play-services-ads-lite-9.6.1/AndroidManifest.xml:26:9-131
+74            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+74-->[com.google.android.gms:play-services-ads-lite:9.6.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/8f8061f84543e38ae370bf68656197f2/jetified-play-services-ads-lite-9.6.1/AndroidManifest.xml:26:19-91
+75            android:theme="@style/Theme.IAPTheme" />
+75-->[com.google.android.gms:play-services-ads-lite:9.6.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/8f8061f84543e38ae370bf68656197f2/jetified-play-services-ads-lite-9.6.1/AndroidManifest.xml:26:92-129
+76        <activity
+76-->[com.google.android.gms:play-services-base:9.6.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/c011758cf0d514aef7da5168d7adbcdc/jetified-play-services-base-9.6.1/AndroidManifest.xml:19:9-172
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:9.6.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/c011758cf0d514aef7da5168d7adbcdc/jetified-play-services-base-9.6.1/AndroidManifest.xml:19:19-85
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:9.6.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/c011758cf0d514aef7da5168d7adbcdc/jetified-play-services-base-9.6.1/AndroidManifest.xml:19:146-170
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:9.6.1] /Users/arnav/.gradle/caches/transforms-2/files-2.1/c011758cf0d514aef7da5168d7adbcdc/jetified-play-services-base-9.6.1/AndroidManifest.xml:19:86-145
+80    </application>
+81
+82</manifest>

@@ -1,0 +1,51 @@
+group 'com.consoliads.consoliadsplugin'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 30
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        minSdkVersion 19
+    }
+}
+
+dependencies{
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.gms:play-services-ads:9.6.1'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation('com.consoliads:consoliadsplugin:v12.1.0-mediation-v13.2.1')
+    implementation('com.consoliads:loaderlibrary:v12.1.0-mediation-v13.2.1')
+    implementation('com.consoliads:ca-analytics:v12.1.0-mediation-v13.2.1')
+    implementation('com.consoliads:consoliadsmediation:v13.2.1')
+    implementation('com.consoliads:consoliads-mediation:v13.2.1')
+    implementation('com.consoliads:ca-nativeads:v13.2.1')
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+}
+

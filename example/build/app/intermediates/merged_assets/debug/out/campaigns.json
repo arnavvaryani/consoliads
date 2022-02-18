@@ -1,0 +1,158 @@
+{
+  "cache_ttl": 10080,
+  "cache_ttl_rewarded": 10080,
+  "cache_ttl_banner": 10080,
+  "cache_ttl_native": 10080,
+  "cache_ttl_icon": 10080,
+  "campaigns": [
+    {
+      "campaignID": 0,
+      "priority": 10,
+      "productId": "formulatransportunlockeverything",
+      "purchaseBit": 1,
+      "licenseKey": "",
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "packageID": "testPackage"
+      },
+      "s2s_tracking_url": "https:\/\/play.google.com\/store\/apps\/details?id=com.plum.ankel.surgery",
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "Interstitial",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID": 1,
+      "priority": 10,
+      "productId": "android.test.purchased",
+      "purchaseBit": 1,
+      "licenseKey": "",
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "packageID": "testPackage"
+      },
+      "s2s_tracking_url": "https:\/\/play.google.com\/store\/apps\/details?id=com.plum.ankel.surgery",
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "Video",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID": 2,
+      "priority": 10,
+      "productId": "android.test.purchased",
+      "purchaseBit": 1,
+      "licenseKey": "",
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "packageID": "testPackage"
+      },
+      "s2s_tracking_url": "https:\/\/play.google.com\/store\/apps\/details?id=com.plum.ankel.surgery",
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "Rewarded Video",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID": 3,
+      "priority": 10,
+      "productId": "android.test.purchased",
+      "purchaseBit": 1,
+      "licenseKey": "",
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "marketURL": "https:\/\/play.google.com",
+        "packageID": "testPackage"
+      },
+      "s2s_tracking_url": "https:\/\/play.google.com\/store\/apps\/details?id=com.plum.ankel.surgery",
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "Banner",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID": 4,
+      "priority": 10,
+      "productId": "",
+      "purchaseBit": 1,
+      "licenseKey": "",
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "marketURL": "https:\/\/play.google.com",
+        "packageID": "testPackage"
+      },
+      "s2s_tracking_url": "https:\/\/play.google.com\/store\/apps\/details?id=com.plum.ankel.surgery",
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "Native",
+      "title": "Test Title",
+      "subTitle": "Test Subtitle",
+      "description": "This is test description",
+      "adChoicesLink": "www.google.com",
+      "adClickThroughText": "Open Link",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID":"7",
+      "attribution":0,
+      "purchaseBit": 1,
+      "productId":"android.test.purchased",
+      "priority":"8",
+      "appToPromote":{
+        "appToPromoteID":"13171",
+        "usesDefaultFrameImage":"1",
+        "usesDefaultCloseImage":"1",
+        "marketURL":"https:\/\/play.google.com\/store\/apps\/details?id=com.plum.ankel.surgery",
+        "packageID":"com.plum.ankel.surgery"
+      },
+      "showTemplate":2,
+      "s2s_tracking_url":"https:\/\/play.google.com\/store\/apps\/details?id=com.plum.ankel.surgery",
+      "activeCreativeID":"1739",
+      "scenes":[
+        "27"
+      ],
+      "campaignAdType":"Icon"
+    }
+  ],
+  "refreshAdRate": 30,
+  "mode": "Production",
+  "aspectRatio": "9_16",
+  "cdnPath": "https:\/\/df8ymybeo92md.cloudfront.net\/images\/",
+  "sentry_log": 0,
+  "local_logging": 1,
+  "sentry_dsn": "https:\/\/93ffa1c9a4124f67b8888a53265f751a:bbf998e04584477fa9a145838e9d3b26@sentry.io\/168994",
+  "sentry_initialization": 1,
+  "sentry_debugging": 0,
+  "bannerSizes": [
+    "1"
+  ],
+  "aspectRatioVideo": "9_16",
+  "app_id": "17372",
+  "showPreRewardedDialogue": 0,
+  "showPostRewardedDialogue": 0,
+  "rewardCurrency": "coins",
+  "rewardValue": 0,
+  "isSkipable": 1,
+  "privacyPolicyURL": "https:\/\/www.consoliads.com\/privacy-policy\/",
+  "sessionToken": "qhF09qzOpGkZ2ML9BHNMJCRTV5Uiy7CA2SZQikrVRIxrm7wmnhYTW7LGiiQZBInm6nMnM8k0cMUaA9JSD0iS02ePmTgyrnIj9GHWaoqD8rgLDR3NpDnWSBCJ9aMAh1G\/6yy\/lW9j+QKVptOVaenz1nlld5EYVDUJODMoU9GVqp4="
+}

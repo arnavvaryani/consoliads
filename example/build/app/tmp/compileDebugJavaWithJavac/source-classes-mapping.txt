@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/consoliads/consoliadsplugin_example/MainActivity.java
+ com.consoliads.consoliadsplugin_example.MainActivity
+com/consoliads/consoliadsplugin_example/BuildConfig.java
+ com.consoliads.consoliadsplugin_example.BuildConfig

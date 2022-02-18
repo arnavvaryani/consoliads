@@ -1,0 +1,170 @@
+{
+  "cache_ttl": 10080,
+  "cache_ttl_rewarded": 10080,
+  "cache_ttl_banner": 10080,
+  "cache_ttl_native": 10080,
+  "cache_ttl_icon": 10080,
+  "cache_ttl_immersive": 1,
+  "campaigns": [
+    {
+      "campaignID": 0,
+      "priority": 10,
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "packageID": "testPackage"
+      },
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "Interstitial",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID": 0,
+      "priority": 10,
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "packageID": "testPackage"
+      },
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "Video",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID": 0,
+      "priority": 10,
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "packageID": "testPackage"
+      },
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "Rewarded Video",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID": 0,
+      "priority": 10,
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "marketURL": "https:\/\/play.google.com",
+        "packageID": "testPackage"
+      },
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "Banner",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID": 0,
+      "priority": 10,
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "marketURL": "https:\/\/play.google.com",
+        "packageID": "testPackage"
+      },
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "Native",
+      "title": "Test Title",
+      "subTitle": "Test Subtitle",
+      "description": "This is test description",
+      "adChoicesLink": "www.google.com",
+      "adClickThroughText": "Open Link",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID": 0,
+      "priority": 10,
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "marketURL": "https:\/\/play.google.com",
+        "packageID": "testPackage"
+      },
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "Icon",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID": 0,
+      "priority": 10,
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "packageID": "testPackage"
+      },
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "ImmersiveImage",
+      "scenes": [
+        "27"
+      ]
+    },
+    {
+      "campaignID": 0,
+      "priority": 10,
+      "appToPromote": {
+        "appToPromoteID": 0,
+        "usesDefaultFrameImage": "1",
+        "usesDefaultCloseImage": "1",
+        "packageID": "testPackage"
+      },
+      "showTemplate": 2,
+      "activeCreativeID": 0,
+      "campaignAdType": "ImmersiveVideo",
+      "scenes": [
+        "27"
+      ]
+    }
+  ],
+  "refreshAdRate": 30,
+  "refreshImmersiveAdRate": 30,
+  "mode": "Testing",
+  "aspectRatio": "9_16",
+  "cdnPath": "https:\/\/df8ymybeo92md.cloudfront.net\/images\/",
+  "sentry_log": 0,
+  "local_logging": 0,
+  "sentry_dsn": "https:\/\/93ffa1c9a4124f67b8888a53265f751a:bbf998e04584477fa9a145838e9d3b26@sentry.io\/168994",
+  "sentry_initialization": 1,
+  "sentry_debugging": 0,
+  "bannerSizes": [
+    "1"
+  ],
+  "aspectRatioVideo": "9_16",
+  "app_id": "40012",
+  "showPreRewardedDialogue": 0,
+  "showPostRewardedDialogue": 0,
+  "rewardCurrency": "coins",
+  "rewardValue": 0,
+  "isSkipable": 1,
+  "privacyPolicyURL": "https:\/\/www.consoliads.com\/privacy-policy\/",
+  "deviceID": "b6d77a1d-3a40-4d91-903c-8518fcfb20bd",
+  "sessionToken": "rYEKVwUsrzn\/OW1PLpKwBlBEjYZEzxwPbLv7KF16NqOFKlrwk7WSdxwBCpYUdC89Xv8a26SnR6uMuCWHBX+SMu5X4PUeBiuiCHNYtZPCmsOUqhwwBUeI0EnDA6Hm\/JsbTP5rITgzGwi3Bf\/B6YKdg7m27v4qbL39Bn4o7HFimXk=",
+  "message": "completed"
+}
